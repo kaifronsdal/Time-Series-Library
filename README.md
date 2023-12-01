@@ -55,6 +55,12 @@ pip install -r requirements.txt
 
 2. Prepare Data. You can obtain the well pre-processed datasets from [[Google Drive]](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2?usp=sharing) or [[Baidu Drive]](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy), Then place the downloaded data in the folder`./dataset`. Here is a summary of supported datasets.
 
+3. Download with
+
+```
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1pmXvqWsfUeXWCMz5fqsP8WLKXR5jxY8z' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1pmXvqWsfUeXWCMz5fqsP8WLKXR5jxY8z" -O all_data.zip && rm -rf /tmp/cookies.txt
+```
+
 <p align="center">
 <img src=".\pic\dataset.png" height = "200" alt="" align=center />
 </p>

@@ -1,4 +1,5 @@
-export CUDA_VISIBLE_DEVICES=6
+# export CUDA_VISIBLE_DEVICES=8
+unset CUDA_VISIBLE_DEVICES
 
 model_name=Autoformer
 
